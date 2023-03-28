@@ -1,0 +1,5 @@
+FROM python:latest
+
+ADD Square.py /
+
+CMD ["python", "./Square.py" ]
